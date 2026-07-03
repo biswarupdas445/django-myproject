@@ -65,7 +65,7 @@ class ProductViewSet(viewsets.ModelViewSet):
 
         products = Product.objects.filter(**filters)
 
-        print(products.query)
+        # print(products.query)
 
         serializer = ProductSerializer(products, many=True)
         return Response(serializer.data)
