@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # DRF dependency.
     'rest_framework',
     'products',
+    'sens',
 ]
 
 MIDDLEWARE = [
